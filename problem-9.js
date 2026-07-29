@@ -9,7 +9,7 @@ function analyzeEmailDomains(text){
     if(typeof text !== "string"){
         return "Invalid"
     }
-  
+//   logic
   let emailCount = 0;
     // console.log(emailCount);
     let longestDomain = "";
@@ -29,8 +29,6 @@ if(domain.length > longestDomain.length){
     }
 
   
-
-
 return {
     emailCount: emailCount,
     longestDomain: longestDomain,
@@ -38,21 +36,5 @@ return {
 }
 
 console.log(analyzeEmailDomains("Contact support@gmail.com admin@yahoo.com info@programminghero.com"));
-// console.log(analyzeEmailDomains("Hello everyone!"));
+console.log(analyzeEmailDomains("Hello everyone!"));
 
-
-// // logic
-
-//     let emailNumberCount = 0;
-//     console.log(emailNumberCount);
-//     let longestEmailAddress = '';
-
-//     let email = text.split(" ");
-//     // console.log(email); 
-//    for(let item of email){
-//      if(item.includes("@")){
-//         emailNumberCount++;
-//     }
-//    }
-
-//     let emailSplit = text.split("@");
