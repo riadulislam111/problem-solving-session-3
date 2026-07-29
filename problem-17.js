@@ -27,7 +27,7 @@ else{
 }
 
 
-    return verifyCartTotal
+
 }
 
 console.log(verifyCartTotal([250, 400, 150], 800));
